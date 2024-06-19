@@ -37,7 +37,7 @@ export default function Card() {
                                         <p>{item.content}</p>
 
 
-                                        <a href={item.url} target='_blank' className='card-btn'>Read More</a></div>
+                                        <a href={item.url} target='_blank' rel="noreferrer" alt="imghere"  className='card-btn'>Read More</a></div>
                                 </div>
 
                             </div>
