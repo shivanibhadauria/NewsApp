@@ -3,7 +3,7 @@ import './Card.css'
 import { useEffect, useState } from 'react';
 
 
-export default function () {
+export default function Card() {
 
 
     const [news, getNews] = useState([]);
